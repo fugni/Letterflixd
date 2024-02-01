@@ -26,7 +26,7 @@ body {
 }
 
 .header .letterboxd-input-container .letterboxd-input-buttons input {
-    width: calc(75% - 7.2px);
+    width: calc(75% - 8px);
 }
 
 .header .letterboxd-input-container .letterboxd-input-buttons button {
@@ -34,10 +34,48 @@ body {
 }
 
 .movies {
-    height: 500px;
     background-color: #222222;
 }
 
 footer {
+    color: #ffffff;
+}
+
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie {
+    width: 250px;
+    height: 375px;
+    margin: 7.5px;
+    border-radius: 3px;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    font-family: 'Roboto', sans-serif;    
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff00;
+}
+
+.movie-title-div {
+    height: calc(24px * 3);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.movie:hover {
+    color: #ffffff;
+    transition: color 0.2s ease-in-out;
+}
+
+.error-message {
+    margin-left: 24px;
     color: #ffffff;
 }
