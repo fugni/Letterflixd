@@ -1,0 +1,43 @@
+body {
+    background-color: #000000;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    color: #ffffff;
+    margin-left: 24px;
+}
+
+.header .letterboxd-input-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin-right: 24px;
+    color: #ffffff;
+}
+
+.header .letterboxd-input-container .letterboxd-input-buttons {
+    margin-top: -8px;
+}
+
+.header .letterboxd-input-container .letterboxd-input-buttons input {
+    width: calc(75% - 7.2px);
+}
+
+.header .letterboxd-input-container .letterboxd-input-buttons button {
+    width: 25%;
+}
+
+.movies {
+    height: 500px;
+    background-color: #222222;
+}
+
+footer {
+    color: #ffffff;
+}
