@@ -78,7 +78,7 @@ const Movies = () => {
 
     useEffect(() => {
         letterboxd(); // Run letterboxd function on component mount
-    }, []); // Empty dependency array ensures it runs only once on mount
+    });
 
     return (
         <div>
