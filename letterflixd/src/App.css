@@ -44,6 +44,7 @@ footer {
 .movies {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .movie {
